@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,600&display=swap');
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/container.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+}
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leerá este CSS */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leerá este CSS */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leerá este CSS */
+  .container {
+    width: 300px;
+  }
+}
+a {
+	text-decoration: none;
+	font-weight: bolder;
+}
